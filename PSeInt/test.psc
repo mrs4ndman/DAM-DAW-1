@@ -1,4 +1,3 @@
-
 Proceso master_of_sorting
 		Definir n1, n2, n3, aux Como Real;
 		Escribir "Dime tres números:";

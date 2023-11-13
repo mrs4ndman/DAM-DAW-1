@@ -2,9 +2,6 @@ package pseIntBucles;
 
 import java.util.Scanner;
 
-/**
- * MaquinaPares
- */
 public class MaquinaPares {
     public static void main(String[] args) {
         Scanner userScanner = new Scanner(System.in);
@@ -19,11 +16,11 @@ public class MaquinaPares {
 
         if (userInput1 > userInput2) {
             bigger = userInput1;
+            numToCheck = userInput2;
         } else {
             bigger = userInput2;
+            numToCheck = userInput1;
         }
-
-        numToCheck = 0;
 
         while (numToCheck < bigger) {
             if (numToCheck % 2 == 0) {

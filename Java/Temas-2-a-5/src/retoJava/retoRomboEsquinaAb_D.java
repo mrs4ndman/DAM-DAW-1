@@ -8,14 +8,14 @@ public class retoRomboEsquinaAb_D {
         Scanner numInput = new Scanner(System.in);
 
         // Declaramos todas las variables necesarias
-        long forwardsIterator, backwardsIterator, spaceIterator, forwards, backwards, userNum, spacerCount;
+        long backwardsIterator, backwards, userNum;
 
         // Recogemos el input del usuario
         System.out.println("Dime un número y te genero el rombo");
         userNum = numInput.nextLong();
 
         // Seteamos el contador de espacios
-        spacerCount = userNum;
+        //  spacerCount = userNum;
         // Bucle A -> parte de arriba
         // for (forwardsIterator = 1; forwardsIterator < (userNum + 1); forwardsIterator++) {
         //     // Espacios previos

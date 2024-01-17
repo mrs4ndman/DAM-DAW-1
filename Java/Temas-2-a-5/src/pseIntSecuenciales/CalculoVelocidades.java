@@ -22,7 +22,6 @@ public class CalculoVelocidades {
         ttl_h = distancia / speed_diff;
         ttl_m = ttl_h * 60;
 
-        // TODO: Crear una if-condition para que se reordene la impresión final
         System.out.println("El coche 2 tardará " + (int) ttl_m + " minutos en alcanzar al coche 1");
 
         inputter.close();

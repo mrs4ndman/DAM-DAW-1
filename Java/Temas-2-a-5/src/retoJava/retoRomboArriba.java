@@ -8,7 +8,7 @@ public class retoRomboArriba {
     Scanner numInput = new Scanner(System.in);
 
     // Declaramos todas las variables necesarias
-    long forwardsIterator, backwardsIterator, spaceIterator, forwards,
+    long forwardsIterator, spaceIterator, forwards,
         backwards, userNum, spacerCount;
 
     // Recogemos el input del usuario

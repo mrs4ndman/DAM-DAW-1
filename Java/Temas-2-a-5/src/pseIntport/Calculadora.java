@@ -7,7 +7,7 @@ public class Calculadora {
 
         Scanner inputter = new Scanner(System.in);
 
-        double Num1, Num2, S_resultado, R_resultado, D_resultado, M_resultado;
+//        double Num1, Num2, S_resultado, R_resultado, D_resultado, M_resultado;
 
         inputter.close();
     }

@@ -8,7 +8,7 @@ public class retoRomboEsquinaAr_I {
         Scanner numInput = new Scanner(System.in);
 
         // Declaramos todas las variables necesarias
-        long forwardsIterator, backwardsIterator, spaceIterator, forwards, backwards, userNum, spacerCount;
+        long forwardsIterator, spaceIterator, forwards, userNum, spacerCount;
 
         // Recogemos el input del usuario
         System.out.println("Dime un número y te genero el rombo");

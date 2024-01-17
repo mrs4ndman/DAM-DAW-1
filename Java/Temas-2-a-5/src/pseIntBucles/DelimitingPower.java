@@ -51,7 +51,7 @@ public class DelimitingPower {
         System.out.println("Suma de los número entre los límites: " + intervalSum);
         System.out.println("Cantidad de números fuera del intervalo: " + outsiderNum);
 
-        if (matched = true) {
+        if (matched) {
             System.out.println("Has introducido uno o ambos límites en los últimos números");
         }
 
